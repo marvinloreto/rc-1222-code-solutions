@@ -1,0 +1,45 @@
+body {
+  background-color: #1297db;
+  color: white;
+}
+
+h2,
+h3,
+p {
+  font-weight: 100;
+}
+
+p {
+  font-size: 12px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  font-family: Lato, sans-serif;
+  max-width: 800px;
+  justify-content: center;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+img {
+  width: 50%;
+}
+
+.column-one-third {
+  width: calc(100% /3);
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 50%;
+  padding-top: 25px;
+  margin: auto;
+}
