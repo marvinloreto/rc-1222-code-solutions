@@ -14,11 +14,14 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
+  height: 200px;
+  margin: auto;
 }
 
 .column-full {
-  width: 80%;
+  width: 100%;
   justify-content: center;
+  text-align: center;
   margin: auto;
 }
 
@@ -29,7 +32,7 @@ body {
 }
 
 .column-half {
-  width: calc(100% / 2);
+  width: 45%;
   display: flex;
   margin: auto;
   justify-content: center;
@@ -70,4 +73,16 @@ h3 {
   width: 125px;
   height: 25px;
   border: 1px solid;
+}
+
+div.button {
+  margin-top: 20px;
+}
+
+div.column-left {
+  padding-right: 15px;
+}
+
+div.column-right {
+  padding-left: 15px;
 }
