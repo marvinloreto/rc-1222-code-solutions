@@ -1,0 +1,64 @@
+.container {
+  font-family: "DM Sans", sans-serif;
+  width: 900px;
+  margin: auto;
+}
+
+p {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.col-full {
+  width: 100%;
+  text-align: center;
+}
+
+.col-fifth {
+  width: 18%;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+img.lv {
+  object-fit: cover;
+  width: 100%;
+  height: 245px;
+}
+
+span.size,
+span.retail {
+  color: lightgray;
+}
+
+span.size {
+  border-left: 1px solid;
+  padding-left: 2px;
+  margin-left: 2px;
+}
+
+span.item {
+  font-weight: bold;
+}
+
+span.sale {
+  background-color: #f7e3d4;
+  font-weight: bold;
+}
+
+span.retail {
+  text-decoration: line-through;
+}
