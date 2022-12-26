@@ -1,0 +1,21 @@
+.typing {
+  font-family: monospace;
+  font-size: 2rem;
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+
+.cursor {
+  border-bottom: 2px solid green;
+  padding-bottom: 5px;
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.done {
+  color: blue;
+}
