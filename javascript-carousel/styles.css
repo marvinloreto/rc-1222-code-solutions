@@ -1,0 +1,44 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.container-image {
+  max-width: 600px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.carousel-row {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+}
+
+.chosen {
+  border-radius: 50%;
+  background-color: black;
+}
+
+.fa-circle {
+  margin: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+i:hover {
+  cursor: pointer;
+}
