@@ -1,0 +1,19 @@
+.container-password {
+  padding-top: 5px;
+}
+
+.error-message {
+  color: red;
+}
+
+i {
+  margin-left: 10px;
+}
+
+.fa-x {
+  color: red;
+}
+
+.fa-check {
+  color: green;
+}
