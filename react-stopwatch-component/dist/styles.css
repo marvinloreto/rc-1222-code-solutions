@@ -1,0 +1,26 @@
+.container {
+  margin: 50px;
+}
+
+.container-watch {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  width: 100px;
+  margin-top: 10px;
+}
+
+h1 {
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+i {
+  cursor: pointer;
+}
