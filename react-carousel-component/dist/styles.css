@@ -1,0 +1,30 @@
+.container-carousel {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.column-full {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 2rem;
+  margin: 0 8rem;
+}
+
+.fa-circle {
+  margin: 2rem 0.5rem;
+  font-size: 1.25rem;
+}
+
+i {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
