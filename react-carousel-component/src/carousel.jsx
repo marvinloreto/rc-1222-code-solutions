@@ -41,7 +41,7 @@ export class Carousel extends React.Component {
 
   handleCircleClick(event) {
     if (event.target.className.includes('fa-circle')) {
-      this.setState({ displayImage: Number(event.target.number) });
+      this.setState({ displayImage: Number(event.target.dataset.id) });
     }
     clearInterval(this.intervalId);
     this.carousel();
