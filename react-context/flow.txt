@@ -1,0 +1,26 @@
+User can sign up:
+  Client side:
+    Users click the sign up button on the auth-form. The username and password they submit will be a POST request.
+
+  Server side:
+    Barring any errors, the server receives the POST request. The password gets hashed by argon2, and the username, hashedPassword, and userId get stored in the database.
+
+  Database side:
+    The database stores the new user data into the users table.
+
+User can sign in:
+  Client side:
+    The form listens for a change in state and saves that state and submits a POST request.
+
+  Server side:
+    When receiving the POST request, the server checks with the database to see if the user already exists by seeing if the user has a token. If not, the client gets thrown an error.
+    If the user does exist, the server grants authorization to the user to access the next page.
+
+User can stay signed in:
+  Client side:
+    Users are redirected to the sign in page if they are not the this.context.user. Otherwise the data of this.context is saved from the user state.
+    When the component mounts, the token of the user is checked. If approved, the page is rendered.
+
+User can sign out:
+  Client side:
+    When users click the sign out button, the react-context-jwt is removed from localstorage and the user state is set to null.
